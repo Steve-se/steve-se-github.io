@@ -1,0 +1,399 @@
+html{
+    
+   font-family: 'DM Sans', sans-serif;
+    background-color: #F1F1F1;
+}
+span{
+    color:#ffd166 ;
+}
+
+
+/*The hero section*/
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin-top: 100px; 
+    padding-bottom: 120px;
+    padding-top: 100px;
+    background-color: #e9e9ec;
+   
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+
+.col img{
+    max-width: 100%;
+    margin-top: 60px;
+  
+}
+
+.col h1{
+    font-size: 42px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: #133c55;  
+}
+.col h2{
+    font-size: 24px;
+    position: relative;
+    bottom:15px;
+    color: #133c55;
+    
+}
+
+.col p{
+    font-size: 18px;
+    font-weight: 500;
+    color:#495057;
+    letter-spacing: .01rem;
+}
+
+.btn{
+    display: inline-block;
+    background-color:#023E8A;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 11px 70px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color:#0077B6;
+}
+
+
+/*End of the hero section*/
+
+/*The Mission section*/
+
+.container2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+ .mission h1{
+    text-transform: uppercase;
+    font-size:20px;
+    color: #386fa4;
+    margin-left: 74px;
+    position: relative;
+    top: 30px;
+    
+ }
+.mission h2{
+     margin-left: 74px;
+     font-size: 48px;
+     font-family:  cursive;
+     color: #133c55;
+
+}
+
+.mission p{
+    font-size: 23px;
+   
+    font-weight: 300;
+    color:#fff;
+    padding: 0 75px;
+}
+/*End of the mission section*/
+
+/*The service section*/
+.focus{
+    margin-top: 100px;
+}
+.focus h1{
+    font-size:20px;
+    color: #386fa4;
+    margin-left: 74px;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    
+}
+.focus h2{
+    margin-left: 74px;
+    font-size: 48px;
+    font-family:  cursive;
+    color: #133c55;
+    text-transform: none;
+
+}
+.focus p{
+    font-size: 23px;
+   
+    font-weight: 300;
+    color:#ffffff;
+    padding: 0 75px;
+}
+.section-p1{
+    padding: 4px 250px;
+   
+}
+
+#feature{
+    display: flex;
+    
+   align-items: center;
+   position: relative;
+   right: 170px;
+   gap: 50px;
+   
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 50px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+#feature .fe-box img{
+  
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h3{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #088178;
+    background-color: #fddde4;
+}
+
+#feature .fe-box:nth-child(2) h3{
+background: #fff2e5;
+}
+#feature .fe-box:nth-child(3) h3{
+    background: #f6dbf6;
+}
+
+.stray{
+    font-size: 23px;
+    margin-top: 60px;
+    font-weight: 300;
+    color:#fff;
+    padding: 0 75px;
+ 
+}
+
+/*The contact section*/
+#contact{
+    font-size: 23px;
+    font-weight: 500;  
+    color:#495057;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+  
+}
+#contact .question{
+    color: #133c55;
+    margin-top: 100px;
+    margin-left:40px;
+    font-size: 47px;
+    font-family: cursive;
+}
+#contact p{
+    margin-left:40px;
+    color:#fff;
+    font-weight: 300;
+}
+
+/*The footer section*/
+.footer{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+.footer *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containment{
+  max-width: 1170px;
+  margin: auto;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style:none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight:500;
+    position: relative;
+
+}
+.footer-col h4::before{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ffd166;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin-right: 10px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color:#ffffff;
+
+}
+
+/*Responsiveness*/
+
+/*The hero section*/
+@media(max-width:768px){
+    .col img{
+      position: relative;
+      right:100px;
+    }
+}
+@media(max-width: 574px){
+    .col h1{
+        font-size: 35px; 
+      
+    }
+}
+@media(max-width:574px){
+    .col img{
+        position: relative;
+     left: 2px;       
+    }
+}
+
+/*The service section*/
+@media(max-width:992px){
+    #feature .fe-box{
+        width: 100px;
+        text-align: center;
+        padding: 20px 50px;
+    }
+}
+@media(max-width:992px){
+    #feature .fe-box img{
+  
+        width:120px;
+        height: 120px;
+    }
+}
+@media(max-width:768px){
+    #feature .fe-box{
+        width: 50px;
+        text-align: center;
+        padding: 20px 50px;
+    }
+}
+
+@media(max-width:768px){
+    #feature .fe-box img{
+  
+       width:100px ;
+       height: 80px;
+    }
+}
+
+@media(max-width:574px){
+    #feature{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       position: relative;
+       left: 10px   
+    }
+}
+@media(max-width:574px){
+    #feature .fe-box{
+        width: 180px;
+        text-align: center;
+        padding: 25px 50px;
+        margin-right: 60px;
+    }
+}
+
+@media(max-width:574px){
+    #feature .fe-box img{
+  
+       width:170px;
+       height: 170px;
+    }
+}
+/*The footer*/
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+margin-bottom: 30px;  
+  }
+}
+
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+  }
+}
+

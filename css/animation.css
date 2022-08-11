@@ -1,0 +1,105 @@
+.deliberate {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-image:url(../images/diesel.jpg);
+    background-size: cover;
+    position: relative;
+    color:white;
+}
+.deliberate{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/diesel.jpg);
+
+}
+
+h5{
+    font-size: 33px;
+    font-family: monospace;
+    position: relative;
+}
+.second{
+position: relative;
+bottom: 56px;
+}
+
+
+h5::before,
+h5::after{
+    content:'';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+  
+h5::before{
+    background-color: #2a4e5d ;
+    animation:typewriter 10s steps(40) 2s forwards;
+}
+
+
+h5::after{
+    width: 0.125rem;
+    background-color: white;
+    animation:typewriter 10s steps(40) 2s forwards,
+    blink 900ms steps(40) infinite,
+    stop 25s; 
+   
+}
+
+.second::before{
+    background-color: #2a4e5d ;
+    animation:typewriter 10s steps(40) 13s infinite;
+
+}
+.second::after{
+    width: 0.125rem;
+    background-color: white;
+    animation:typewriter 10s steps(40) 13s infinite,
+    blink 900ms steps(40) infinite,
+   start 60s; 
+}
+
+.deliberate p{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    bottom: 40px;
+}
+.deliberate p{
+    color: white;
+}
+
+@keyframes typewriter{
+    to{
+        left: 100%;
+    }
+}
+@keyframes blink{
+    to{
+        background: transparent;
+    }
+}
+
+@keyframes start{
+    from{
+        background: beige;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes stop{
+    to{
+        background: beige;
+    }
+}
+
+
+
